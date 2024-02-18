@@ -1,0 +1,94 @@
+html {
+    font: 20px Arial, sans-serif;
+    background-color: #e5ded4;
+  }
+  h1, h2 {
+    font-variant: small-caps;
+    text-align: center;
+  }
+  h1{
+    color: #FF671F;
+  }
+  h3{
+    text-align: center;
+    color: #e12a36;
+  }
+  figcaption {
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 1.2rem; /* Relative size */
+  }
+  #quote{
+    text-align: center;
+  }
+  .title{
+    text-align: center;
+  }
+  q {
+    font-style: italic;
+    font-family: cursive;
+    font-size: 1.2rem; /* Relative size */
+  }
+  footer p {
+    font-size: 0.8rem; /* Relative size */
+  }
+  body {
+    width: 100%; /* Relative to parent width */
+    max-width: 1500px; /* Absolute width */
+  }
+  img, video {
+    width: 500px; /* Relative to parent width */
+    height: auto; /* Maintain aspect ratio */
+  }
+  h1, footer {
+    border: 2px solid #333; /* Width, style, and color */
+    border-radius: 10px; /* Rounded corners */
+    text-align: center;
+    background: linear-gradient(to right, rgb(255,140,0), rgb(255,255,255), rgb(0, 128, 0)); /* Red to Green gradient */
+  }
+  
+  img {
+    border: 0px solid #000; /* Different color for each figure */
+    border-radius: 5px; /* Rounded corners */
+  }
+  figure {
+    margin-left: 472px;
+    display: inline-block; /* Adjust display to fit content */
+    border-radius: 5px; /* Rounded corners */
+    border-width: 5px;
+    padding: 20px;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.5);
+    border-style: solid;
+    border-image: linear-gradient(to right, #FF671F, #FFFFFF, #046A38) 1; /* Tricolor border */
+  }
+  
+  figcaption {
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 1.2rem; /* Relative size */
+    text-align: center; /* Center the caption */
+  }
+  iframe, video {
+    border: 1px solid #666; /* Width, style, and color */
+    border-radius: 5px; /* Rounded corners */
+    margin-left: 472px;
+    border-width: 5px;
+    padding: 20px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #FF671F, #FFFFFF, #046A38) 1;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5); /* Box shadow */
+  }
+  figure#relative-path-image {
+    background-color: #578998; /* Match border color */
+  }
+  .fig1{
+    color: #f8eb60;
+  }
+  .fig2{
+    color: #c7e961;
+  }
+  figure#absolute-path-image {
+    background-color: #952534; /* Match border color */
+  }
+  
+  
