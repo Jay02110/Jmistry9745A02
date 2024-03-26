@@ -1,94 +1,240 @@
-html {
+  html {
     font: 20px Arial, sans-serif;
     background-color: #e5ded4;
   }
-  h1, h2 {
+  h1,
+  h2 {
     font-variant: small-caps;
     text-align: center;
   }
-  h1{
-    color: #FF671F;
+
+  #quote { 
+    border-style: solid;
+    border-image: linear-gradient(to right, #ff671f, #ffffff, #046a38) 1; 
+    padding: 10px; 
+    border-width: 4px; 
   }
-  h3{
+
+  h1 {
+    color: #ff671f;
+  }
+  h3 {
     text-align: center;
-    color: #e12a36;
+    color: #046a38;
+    
   }
   figcaption {
     font-weight: bold;
     font-variant: small-caps;
-    font-size: 1.2rem; /* Relative size */
+    font-size: 1.2rem; 
   }
-  #quote{
+  #quote {
     text-align: center;
   }
-  .title{
+  .title {
     text-align: center;
   }
   q {
     font-style: italic;
     font-family: cursive;
-    font-size: 1.2rem; /* Relative size */
+    font-size: 1.2rem; 
   }
   footer p {
-    font-size: 0.8rem; /* Relative size */
+    font-size: 0.8rem; 
   }
   body {
-    width: 100%; /* Relative to parent width */
-    max-width: 1500px; /* Absolute width */
+    width: 100%;
+    max-width: 1500px; 
   }
-  img, video {
-    width: 500px; /* Relative to parent width */
-    height: auto; /* Maintain aspect ratio */
+  img,
+  video {
+    width: 50px;
+    height: auto; 
   }
-  h1, footer {
-    border: 2px solid #333; /* Width, style, and color */
-    border-radius: 10px; /* Rounded corners */
+  h1,
+  footer {
+    border: 2px solid #333; 
+    border-radius: 10px; 
     text-align: center;
-    background: linear-gradient(to right, rgb(255,140,0), rgb(255,255,255), rgb(0, 128, 0)); /* Red to Green gradient */
+    background: linear-gradient(
+      to right,
+      rgb(255, 140, 0),
+      rgb(255, 255, 255),
+      rgb(0, 128, 0)
+    ); 
   }
-  
+
   img {
-    border: 0px solid #000; /* Different color for each figure */
-    border-radius: 5px; /* Rounded corners */
+    border: 0px solid #000;
+    width: 300px;
+    height: 300px;
+    border-radius: 5px; 
   }
   figure {
     margin-left: 472px;
-    display: inline-block; /* Adjust display to fit content */
-    border-radius: 5px; /* Rounded corners */
+    display: inline-block; 
+    height: 400px;
+    border-radius: 5px; 
     border-width: 5px;
     padding: 20px;
     box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.5);
-    border-style: solid;
-    border-image: linear-gradient(to right, #FF671F, #FFFFFF, #046A38) 1; /* Tricolor border */
+    border-style:ridge;
+    border-image: linear-gradient(to right, #ff671f, #ffffff, #046a38) 1; 
   }
-  
+
   figcaption {
     font-weight: bold;
     font-variant: small-caps;
-    font-size: 1.2rem; /* Relative size */
-    text-align: center; /* Center the caption */
+    font-size: 1.2rem; 
+    text-align: center; 
   }
-  iframe, video {
-    border: 1px solid #666; /* Width, style, and color */
-    border-radius: 5px; /* Rounded corners */
-    margin-left: 472px;
+  iframe,
+  video {
+    border: 1px solid #666; 
+    border-radius: 5px; 
     border-width: 5px;
     padding: 20px;
     border-style: solid;
-    border-image: linear-gradient(to right, #FF671F, #FFFFFF, #046A38) 1;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5); /* Box shadow */
+    border-image: linear-gradient(to right, #ff671f, #ffffff, #046a38) 1;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5); 
   }
   figure#relative-path-image {
-    background-color: #578998; /* Match border color */
+    margin-right: 50px;
+    background-color: #578998; 
   }
-  .fig1{
+  .fig1 {
     color: #f8eb60;
   }
-  .fig2{
+  .fig2 {
     color: #c7e961;
   }
   figure#absolute-path-image {
-    background-color: #952534; /* Match border color */
+    background-color: #952534; 
   }
-  
-  
+
+  footer {
+    clear: both; 
+    text-align: center;
+    background-color: #333;
+    border: 2px solid #333;
+    background: linear-gradient(
+      to right,
+      rgb(255, 140, 0),
+      rgb(255, 255, 255),
+      rgb(0, 128, 0)
+    );
+  }
+
+  table,
+  th,
+  td {
+    width: 300px;
+    border: 0.1rem solid black;
+    text-align: center;
+  }
+  td {
+    padding: 10px; 
+    border: 1px solid blue;
+  }
+  p{
+  }
+  .tableDown{
+    color: green;
+    text-align: center;
+  }
+  .tableTop{
+    color: blue;
+  }
+  main {
+    padding: 0.5rem;
+    margin: 0.5rem;
+    width: 70%;
+    float: left;
+  }
+
+  nav{
+    padding: 5px;
+      text-align: center;
+      background-color: rgb(55, 114, 166);
+  }
+  nav ul{ 
+      display: flex;
+      padding: 0.25rem ;
+      margin: 0 0.25rem;   
+    
+  }
+  .submitButton{
+    background-color: whitesmoke;
+    color: #da2137;
+    font-size: large;
+    font-weight: bolder;
+  }   
+
+  nav ul li{
+      list-style-type: none;
+      border: 0.1rem solid orange;
+      background-color: white;
+      
+
+  }
+
+  nav ul li a{
+      color:  orange;
+      font-variant: small-caps;
+      font-size: 1.25rem;
+      background-color: #FFFFFF;
+      display: block;   
+      font-weight: bold;
+      text-decoration: none;   
+  }
+  nav ul li a:hover { 
+      color: white;
+      background-color:orange;
+      border: 0.1rem solid white;
+  }
+
+  #home,#contact{
+    width: 50%;
+  }
+
+  aside {
+    padding: 0.5rem;
+    margin: 0.5rem;
+    width: 23%;
+    float: right;
+  }
+
+  .main-section {
+    text-align: center; 
+  }
+
+  .main-section-figure {
+    display: inline-block; 
+    margin: 0 10px; 
+  }
+  .container {
+    text-align: center; 
+  }
+
+  .bio{
+    width: 30%;
+  }
+
+  /* Add this CSS to your existing stylesheet */
+
+.bio-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.bio-content {
+  width: 70%; /* Adjust as needed */
+}
+
+.main-section-figure {
+  width: 30%; /* Adjust as needed */
+}
+
+
